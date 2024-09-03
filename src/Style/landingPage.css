@@ -1,0 +1,58 @@
+.landing{
+    height: 100vh;
+    background: linear-gradient(rgb(33, 80, 235) ,violet);
+    padding: 70px;
+}
+.landing .form{
+    height: 80vh;
+    width: 80vw;
+    border: solid 0.2px;
+    margin: auto;
+    border-radius: 30px;
+    background: url('../Images/mountain.jpg') no-repeat center;
+
+}
+.landing form{
+    
+    height: 300px;
+    width: 400px;
+    color: white;
+    margin: 100px auto;
+    padding: 50px;
+    background: rgba(193, 192, 192, 0.263);
+}
+.landing input{
+    display: flex;
+    padding: 20px 0px 5px;
+    margin: 10px;
+    border-style: none;
+    background: transparent;
+    border-bottom: solid 2px white;
+    width: 100%;
+    color: white;
+
+}
+.landing input::placeholder{
+    text-align: center;
+    color: aliceblue;
+}
+.landing button{
+    margin: 0px 100px 10px;
+    height: 8vh;
+    width: 17vh;
+    background: blue;
+    color: aliceblue;
+    border-style: none;
+    border-radius: 20px;
+}
+.landing button:hover{
+    border: 0.2px solid ;
+}
+.landing button:focus{
+    transform:  scale(0.9);
+}
+.landing h1{
+    -webkit-text-stroke: 1px ;
+    -webkit-text-fill-color: rebeccapurple;
+    padding: 0px 40px;
+}

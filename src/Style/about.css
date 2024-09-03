@@ -1,0 +1,34 @@
+.about{
+        height: 90vh;
+        background: url('../Images/stars.jpg') bottom;
+    
+}
+.about .header{
+    padding: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(81, 132, 14);
+    -webkit-text-stroke: 0.4px white;
+}
+.about .container{
+    border: solid;
+    height: 400px;
+    width: 80%;
+    margin: auto;
+    box-shadow: inset 1px 1px  8px 8px white;
+}
+.about .container img{
+
+    margin: 30px 25px;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+.about .container .image{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    margin: 20px;
+    background-image: linear-gradient(to right top, #e9e2e6, #e3dde2, #dcd8df, #111111, #050505, #0e0e0f, #1f2022, #b5bcc3, #abb3b9, #a2abae, #99a2a3, #919999);
+}

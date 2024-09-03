@@ -1,0 +1,45 @@
+.navbar ul  {
+    height: 10vh;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+
+.navbar{
+    
+    display: flex;
+    height: 10vh;
+    background: linear-gradient(blue,rgba(255, 255, 255, 0.008)); 
+}
+.navbar .logo{
+    width: 30%;
+    background: orange;
+    height: 10vh;
+}
+.navbar .links{
+    width: 70%;
+    height: 10vh;
+    background: rgba(13, 13, 223, 0.933);
+    color: white;
+}
+li {
+    color: rgb(15, 14, 12);
+    list-style: none;
+}
+.abc{
+    text-decoration: none;
+    color: black;
+}
+.navbar a{
+    color: beige;
+    text-decoration: none;
+}
+.navbar img{
+    margin: 0px 120px;
+    height: 10vh;
+    width: 20vh;
+    border-radius: 30px;
+}

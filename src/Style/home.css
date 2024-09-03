@@ -1,0 +1,39 @@
+.hompage .header{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+.hompage .container{
+    height: 100vh;
+    background: radial-gradient(rgb(192, 239, 255),rgb(63, 5, 255),violet);
+    color: aliceblue;
+}
+ .hompage .container h1{
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    margin: 0px 600px;
+}
+ .hompage .container .image{
+    position: relative;
+    top: -100px;
+    left: 20px;
+    width: 40%;
+    border-radius: 50%;
+    background-image: linear-gradient(to right top, #e9e2e6, #e3dde2, #dcd8df, #d5d3db, #cdced7, #c5c8d1, #bdc2ca, #b5bcc3, #abb3b9, #a2abae, #99a2a3, #919999);
+
+}
+ .hompage .container img{
+    height: 200px;
+    width: 200px;
+    border-radius: 40%;
+    margin: 50px ;
+}
+.hompage .box{
+    width: 70%;
+    border: 1px solid ;
+    margin: 50px auto;
+    box-shadow: inset 1px 1px 7px  1px white;
+
+
+}
